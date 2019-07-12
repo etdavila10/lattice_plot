@@ -93,7 +93,7 @@ if '1' in elements or '0' in elements:
     new_x, new_y = alpha_axis(xvals, xvals * 0 + m)
     plt.plot(new_x, new_y, linewidth=3, color='purple', alpha=trans_line)
 
-    # Filling in the region
+    # # Filling in the region
     point_x1, point_y1 = alpha_axis(n, 90)
     point_x2, point_y2 = alpha_axis(90, 90)
     point_x3, point_y3 = alpha_axis(90, m)
