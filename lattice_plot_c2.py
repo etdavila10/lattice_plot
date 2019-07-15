@@ -4,6 +4,16 @@
 from pylab import *
 import matplotlib.pyplot as plt
 import numpy as np
+import os, sys
+
+######### Checking for files in the directory ##################################
+os.chdir(sys.path[0])
+
+if (not os.path.isdir('images')):
+    os.mkdir('images')
+if (not os.path.isdir('images/c2_images')):
+    os.mkdir('images/c2_images')
+################################################################################
 
 ############## \mu = n\alpha_1 + m\alpha_2 #####################################
 while True:
@@ -19,8 +29,8 @@ m = int(m_input)
 ################################################################################
 
 ############ Conversion from standard basis to omega basis #####################
-def omega_axis(xvals,yvals):
-    return (np.sqrt(2)/2.) * xvals + (np.sqrt(2)/2. * yvals), (np.sqrt(2)/2.) * yvals
+def omega_axis(x, y):
+    return (np.sqrt(2)/2.) * x + (np.sqrt(2)/2. * y), (np.sqrt(2)/2.) * y
 ################################################################################
 
 ######### inequality names based off paper #####################################
@@ -78,7 +88,7 @@ s1 = 'orange'
 s2 = 'yellow'
 s2s1 = 'maroon'
 s1s2 = 'cyan'
-s1s2s1 = 'magenta'
+s1s2s1 = 'gray'
 s2s1s2 = 'red'
 s2s1s2s1 = 'aquamarine'
 

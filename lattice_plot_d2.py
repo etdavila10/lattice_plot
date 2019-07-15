@@ -1,8 +1,19 @@
-# Plot inequalities from lattice points paper
+# lattice_plot_d2.py
+# Plotting the Weyl ALternation Diagrams for Lie Algebra d_2
 
 from pylab import *
 import matplotlib.pyplot as plt
 import numpy as np
+import os, sys
+
+######### Checking for files in the directory ##################################
+os.chdir(sys.path[0])
+
+if (not os.path.isdir('images')):
+    os.mkdir('images')
+if (not os.path.isdir('images/d2_images')):
+    os.mkdir('images/d2_images')
+################################################################################
 
 ############## \mu = n\alpha_1 + m\alpha_2 #####################################
 while True:
