@@ -1,6 +1,5 @@
 # Weyl Alternation Diagrams for Lie Algebras of rank 2
-* Through 2019 MSRI-UP based on [this paper](#).
-* By: Pamela E. Harris, Eduardo Torres Davila, Juan Ramirez, and Fabrice O. Ulysse
+* Through 2019 MSRI-UP based on [this paper](#) by Pamela E. Harris, Eduardo Torres Davila, Juan Ramirez, and Fabrice O. Ulysse
 
 ## Usage
 * Activate the Python virtual environment (Make sure you are in the directory)
