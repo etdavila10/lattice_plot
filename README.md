@@ -1,5 +1,5 @@
 # Weyl Alternation Diagrams for Lie Algebras of rank 2
-* Based on [this paper](#) by Pamela E. Harris, Eduardo Torres Davila, Juan Ramirez, and Fabrice O. Ulysse[^1]
+* Based on [this paper](#) by Pamela E. Harris, Eduardo Torres Davila, Juan Ramirez, and Fabrice O. Ulysse<sup>1</sup>
 
 ## Usage
 * Activate the Python virtual environment (Make sure you are in the directory)
@@ -44,4 +44,4 @@ Now the image should be saved in the created directory and the generated image
 should appear on the screen.
 
 
-[^1]: Project given during the 2019 MSRI-UP Program.
+<sup>1</sup>Project given during the 2019 MSRI-UP Program.
