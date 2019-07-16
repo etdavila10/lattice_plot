@@ -1,8 +1,8 @@
 # Weyl Alternation Diagrams for Lie Algebras of rank 2
-* Based on [this paper](#) by [Pamela E. Harris][1], [Eduardo Torres Davila][2], Juan Ramirez, and [Fabrice O. Ulysse][3]<sup>1</sup>
-[1]:https://www.pamelaeharris.com/ "Pamela"
-[2]:https://etdavila10.github.io/ "Eduardo"
-[3]:fabriceulysse.xyz "Fabrice"
+* Based on [this paper](#) by [Pamela E. Harris](https://www.pamelaeharris.com/ "Pamela"),
+[Eduardo Torres Davila](https://etdavila10.github.io/ "Eduardo"),
+Juan Ramirez,
+and [Fabrice O. Ulysse](fabriceulysse.xyz "Fabrice")<sup>1</sup>
 
 ## Usage
 * Activate the Python virtual environment (Make sure you are in the directory)
