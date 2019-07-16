@@ -2,7 +2,7 @@
 * Based on [this paper](#) by [Pamela E. Harris](https://www.pamelaeharris.com/ "Pamela"),
 [Eduardo Torres Davila](https://etdavila10.github.io/ "Eduardo"),
 Juan Ramirez,
-and [Fabrice O. Ulysse](fabriceulysse.xyz "Fabrice")<sup>1</sup>
+and [Fabrice O. Ulysse](https://fabriceulysse.xyz "Fabrice")<sup>1</sup>
 
 ## Usage
 * Activate the Python virtual environment (Make sure you are in the directory)
