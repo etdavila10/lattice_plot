@@ -40,7 +40,7 @@ value for m?
 images/d2_images/lattice_n4_m4.pdf was saved!
 ```
 
-Now the image should be saved in the created directory and the generated image
+* Now the image should be saved in the created directory and the generated image
 should appear on the screen.
 
 
