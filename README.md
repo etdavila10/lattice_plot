@@ -1,5 +1,5 @@
 # Weyl Alternation Diagrams for Lie Algebras of rank 2
-* Through 2019 MSRI-UP based on [this paper](#) by Pamela E. Harris, Eduardo Torres Davila, Juan Ramirez, and Fabrice O. Ulysse
+* Based on [this paper](#) by Pamela E. Harris, Eduardo Torres Davila, Juan Ramirez, and Fabrice O. Ulysse[^1]
 
 ## Usage
 * Activate the Python virtual environment (Make sure you are in the directory)
@@ -39,3 +39,9 @@ value for m?
 4
 images/d2_images/lattice_n4_m4.pdf was saved!
 ```
+
+Now the image should be saved in the created directory and the generated image
+should appear on the screen.
+
+
+[^1]: Project given during the 2019 MSRI-UP Program.
