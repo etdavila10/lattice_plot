@@ -42,21 +42,21 @@ if grid:
         vals = np.zeros(len(xvals))
         vals += i
         line = alpha_axis(vals, xvals)
-        plt.plot(line[0], line[1], color='black', linewidth=.8)
+        plt.plot(line[0], line[1], color='black', linewidth=.8, alpha=.4)
 
     # Creates the lines parallel to alpha_1 axis
     for i in range(-70,70):
         vals = np.zeros(len(xvals))
         vals += i
         line = alpha_axis(xvals,vals)
-        plt.plot(line[0], line[1], color='black', linewidth=.8)
+        plt.plot(line[0], line[1], color='black', linewidth=.8, alpha=.4)
 
     # Drawing the alpha axes
-    plt.plot(xvals, np.zeros(len(xvals)), color='black', linewidth=3)
+    plt.plot(xvals, np.zeros(len(xvals)), color='black', linewidth=2)
     line = alpha_axis(np.zeros(len(xvals)), xvals)
-    plt.plot(line[0], line[1], color='black', linewidth=3)
-    plt.text(14.8, 0, r'$\alpha_1$', fontsize=16)
-    plt.text(-16.7, 9, r'$\alpha_2$', fontsize=16)
+    plt.plot(line[0], line[1], color='black', linewidth=2)
+    plt.text(14.8, 0, r'$\alpha_1$', fontsize=20)
+    plt.text(-16.7, 9, r'$\alpha_2$', fontsize=20)
 ################################################################################
 
 # Transparency
