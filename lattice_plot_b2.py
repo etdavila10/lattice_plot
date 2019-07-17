@@ -59,20 +59,20 @@ if grid:
         vals = np.zeros(len(xvals))
         vals += i
         line = omega_axis(vals, xvals)
-        plt.plot(line[0], line[1], color='black', linewidth=.8)
+        plt.plot(line[0], line[1], color='black', linewidth=.8, alpha=.4)
 
     # Creates the lines parallel to omega_1 axis
     for i in range(-50,50):
         vals = np.zeros(len(xvals))
         vals += i
         line = omega_axis(xvals,vals)
-        plt.plot(line[0], line[1], color='black', linewidth=.8)
+        plt.plot(line[0], line[1], color='black', linewidth=.8, alpha=.4)
 
     # Drawing the omega axes
     line = omega_axis(xvals, np.zeros(len(xvals)))
-    plt.plot(line[0], line[1], color='black', linewidth=3)
+    plt.plot(line[0], line[1], color='black', linewidth=2)
     line = omega_axis(np.zeros(len(xvals)), xvals)
-    plt.plot(line[0], line[1], color='black', linewidth=3)
+    plt.plot(line[0], line[1], color='black', linewidth=2)
 
     # Labeling the axes
     plt.text(15.2, -0.2, r'$\omega_2$', fontsize=20)
