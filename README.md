@@ -5,9 +5,6 @@ Juan Ramirez,
 and [Fabrice O. Ulysse](https://fabriceulysse.xyz "Fabrice")<sup>1</sup>
 
 ## Usage
-* Activate the Python virtual environment (Make sure you are in the directory)
-
-`source venv/bin/activate`
 
 * Example using `lattice_plot_d2.py`
 
