@@ -1,7 +1,6 @@
 # lattice_plot_b2.py
 # Plotting the Weyl Alternation Diagrams for Lie Algebra b_2
 
-from pylab import *
 import matplotlib.pyplot as plt
 import numpy as np
 import os, sys
