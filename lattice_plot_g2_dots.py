@@ -1,7 +1,6 @@
 # lattice_plot_g2_dots.py
 # Plotting the Weyl Alternation Diagrams for Lie Algebra g_2
 
-from pylab import *
 import matplotlib.pyplot as plt
 import numpy as np
 import os, sys
