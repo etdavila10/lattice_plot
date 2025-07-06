@@ -1,8 +1,7 @@
 # Weyl Alternation Diagrams for Lie Algebras of rank 2
-* Based on [this paper](#) by [Pamela E. Harris](https://www.pamelaeharris.com/ "Pamela"),
+* Based on the paper[Visualizing the support of Kostant's weight multiplicity formula for the rank-2 Lie algebras](https://msp.org/involve/2024/17-2/p01.xhtml) by [Pamela E. Harris](https://www.pamelaeharris.com/ "Pamela"),
 [Eduardo Torres Davila](https://etdavila10.github.io/ "Eduardo"),
-Juan Ramirez,
-and [Fabrice O. Ulysse](https://fabriceulysse.xyz "Fabrice")<sup>1</sup>
+Juan Ramirez, and Fabrice O. Ulysse<sup>1</sup>
 
 ## Usage
 
